@@ -1,0 +1,92 @@
+:root {
+    --main-bg-color: #e8e8e8;
+    --second-bg-color: #ffffff;
+    --highlight-color: #FFF44F;
+    --third-bg-color: #3B3B3B;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: var(--main-bg-color);
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+#vision-board {
+    width: 1200px;
+    margin: 50px;
+    background-image: url(/img/background.png);
+    background-size: cover;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.block {
+    padding: 20px;
+    align-self: center;
+}
+
+.block:nth-of-type(odd) {
+    background-color: rgb(255, 255, 255, 0.6);
+    height: 100%;
+    justify-items: center;
+    width: 100%;
+}
+
+#cell5 {
+    background-color: var(--third-bg-color);
+    color: var(--second-bg-color);
+    text-align: center;
+}
+
+p strong {
+    background-color: var(--highlight-color);
+}
+
+p span {
+    font-size: 2em;
+}
+
+.marker {
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    font-size: 2.4em;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#cell5 p {
+    margin-top: 0;
+}
+
+.cell2 {
+    text-align: center;
+}
+
+.cell3 p {
+    text-align: center;
+    margin: 0;
+}
+
+.cell6 {
+    text-align: right;
+}
+
+.cell7 p {
+    text-align: center;
+    margin: 0;
+}
+
+.cell8 {
+    text-align: center;
+}
+
+.cell9 {
+    text-align: right;
+}
+
+
