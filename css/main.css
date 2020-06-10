@@ -21,18 +21,17 @@ body {
     margin: 50px;
     background-image: url(/img/background.png);
     background-size: cover;
-    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .block {
     padding: 20px;
-    align-self: center;
+    place-content: center;
 }
 
 .block:nth-of-type(odd) {
-    background-color: rgb(255, 255, 255, 0.6);
+    background-color: rgb(255, 255, 255, 0.8);
     height: 100%;
     justify-items: center;
     width: 100%;
